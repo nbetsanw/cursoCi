@@ -13,6 +13,16 @@ public class OperacionesTest {
 	}
 	
 	@Test
+	public void operacionesMultiplicacion2Test() {
+		assertEquals("La multiplicacion ha dejado de ser correcta", 100, Operaciones.multiplicacion(20, 5));
+	}
+	
+	@Test
+	public void operacionesMultiplicacion3Test() {
+		assertEquals("La multiplicacion ha dejado de ser correcta", 100, Operaciones.multiplicacion(2, 50));
+	}
+	
+	@Test
 	public void operacionesRestaTest() {
 		assertEquals("La resta ha dejado de ser correcta", 110, Operaciones.resta(140, 30));
 	}
